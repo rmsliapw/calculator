@@ -4,6 +4,8 @@ body {
 
 main {
   display: flex;
+  flex-direction: column;
+  gap: 50px;
   align-items: center;
   justify-content: center;
   padding: 50px;
@@ -30,7 +32,7 @@ main {
   background-color: lightgray;
   border-radius: 10px;
   color: brown;
-  padding: 10px;
+  padding: 10px 20px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -55,4 +57,9 @@ main {
   width: 75px;
   height: 75px;
   font-size: 20px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  cursor: pointer;
 }
